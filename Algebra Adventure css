@@ -1,0 +1,19 @@
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f8ff;
+}
+
+.game{
+  margin: 100px auto;
+  width: 300px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+input, button{
+  padding: 8px;
+  margin: 5px;
+}
