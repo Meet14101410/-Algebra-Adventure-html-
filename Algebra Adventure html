@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Algebra Adventure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game">
+    <h1>Algebra Adventure</h1>
+    <p>Solve: x + 5 = 12</p>
+    <input type="number" id="ans">
+    <button onclick="check()">Submit</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
