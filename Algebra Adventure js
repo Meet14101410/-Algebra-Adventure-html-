@@ -1,0 +1,10 @@
+function check() {
+  let answer = document.getElementById("ans").value;
+  let result = document.getElementById("result");
+
+  if (answer == 7) {
+    result.innerHTML = "🎉 Correct! You solved the equation.";
+  } else {
+    result.innerHTML = "❌ Wrong answer. Try again!";
+  }
+}
